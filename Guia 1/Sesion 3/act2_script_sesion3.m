@@ -1,0 +1,22 @@
+R = 10e3;
+C = 18e-6;
+
+subplot(3,2,1)
+plot(out.vo_1.time,out.vo_1.data)
+title("V_o a Ts = 0.75")
+xlabel("")
+subplot(3,2,2)
+plot(out.vo_2.time,out.vo_2.data)
+title("V_o a Ts = 0.5s")
+subplot(3,2,3)
+plot(out.vo_3.time,out.vo_3.data)
+title("V_o a Ts = 0.2s")
+subplot(3,2,4)
+plot(out.vo_4.time,out.vo_4.data)
+title("V_o a Ts = 0.1s")
+subplot(3,2,5)
+plot(out.vo_5.time,out.vo_5.data)
+title("V_o a Ts = 0.05s")
+subplot(3,2,6)
+plot(out.vo_5.time,out.vo_5.data)
+title("V_o a Ts = 0.01s")
