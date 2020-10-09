@@ -55,16 +55,21 @@ step(Gc3)
  %Respuesta a escalon 
  %{
 %Plots
-subplot(2,3,1)
-    step(Gc1)
+ subplot(2,3,1)
+ step(Gc1)
+ title("Respuesta Step I")
  subplot(2,3,2)
-    step(Gc2)
+ step(Gc2)
+ title("Respuesta Step II")
  subplot(2,3,3)
-    step(Gc3)
+ step(Gc3)
+ title("Respuesta Step III")
  subplot(2,3,4)
-    step(Gc4)
+ step(Gc4)
+ title("Respuesta Step IV")
  subplot(2,3,5)
-    step(Gc5)
+ step(Gc5)
+ title("Respuesta Step V")
  %}
  
  %Tomar datos para respuesta a escalon
