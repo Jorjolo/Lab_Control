@@ -1,0 +1,22 @@
+R = 10e3;
+C = 18e-6;
+
+subplot(3,2,1)
+plot(out.vo_1.time,sin_a_r)
+title("Ts = 0.75")
+xlabel("")
+subplot(3,2,2)
+stem(out.sin_b.time,sin_b_r)
+title("Ts = 0.5s")
+subplot(3,2,3)
+stem(out.sin_c.time,sin_c_r)
+title("Ts = 0.2s")
+subplot(3,2,4)
+stem(out.sin_d.time,sin_d_r)
+title("Ts = 0.1s")
+subplot(3,2,5)
+stem(out.sin_e.time,sin_e_r)
+title("Ts = 0.05s")
+subplot(3,2,6)
+stem(out.sin_f.time,sin_f_r)
+title("Ts = 0.01s")
